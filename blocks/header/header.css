@@ -1,7 +1,20 @@
 .header {
-    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
+    padding: 28px 48px 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 0;
+    }
 }

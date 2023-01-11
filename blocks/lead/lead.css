@@ -1,4 +1,17 @@
 .lead {
-    max-width: 984px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 11.64% 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+        padding: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead {
+        padding: 48px 0 0;
+    }
 }
