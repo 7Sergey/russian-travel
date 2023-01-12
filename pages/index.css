@@ -12,6 +12,7 @@
 @import url(../blocks/header/__link/_active/header__link_active.css);
 
 @import url(../blocks/main/main.css);
+@import url(../blocks/link/link.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
