@@ -3,3 +3,10 @@
     grid-column: 1/2; */
     max-width: 100%;
 }
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        max-width: calc(100% + 32px);
+        margin-left: -16px;
+    }
+}

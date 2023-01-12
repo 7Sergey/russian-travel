@@ -5,16 +5,18 @@
     line-height: 14px;
     color: #fff;
     margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1023px) {
     .lead__caption {
-       margin-left: 24px;
+        margin-left: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .lead__caption {
-       margin-left: 16px;
+        margin-left: 16px;
     }
 }

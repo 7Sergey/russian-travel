@@ -11,6 +11,10 @@
     color: #FFFFFF;
 }
 
+.place__title:first-child{
+    white-space: pre-line;
+}
+
 @media screen and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
@@ -22,5 +26,8 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
+    }
+    .place__title:first-child{
+        white-space:normal;
     }
 }

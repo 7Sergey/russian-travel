@@ -5,7 +5,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 26px;
     color: #FFFFFF;
+
 }
 
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
