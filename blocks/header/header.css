@@ -5,6 +5,7 @@
     justify-content: space-between;
     position: relative;
     padding: 28px 48px 0;
+    font-family:'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1023px) {

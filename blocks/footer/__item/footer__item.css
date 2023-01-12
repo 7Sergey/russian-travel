@@ -1,7 +1,15 @@
 .footer__item {
+    padding: 0;
+    margin: 0;
     margin-right: 18px;
 }
 
 .footer__item:last-child {
     margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__item {
+        margin-bottom: 32px;
+    }
 }
