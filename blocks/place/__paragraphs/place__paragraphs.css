@@ -5,3 +5,9 @@
     flex-direction: column;
     gap: 26px;
 }
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs {
+        padding: 0 16px;
+    }
+}

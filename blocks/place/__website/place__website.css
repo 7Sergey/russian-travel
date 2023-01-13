@@ -4,3 +4,8 @@
     align-self: end;
 }
 
+@media screen and (max-width: 767px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}

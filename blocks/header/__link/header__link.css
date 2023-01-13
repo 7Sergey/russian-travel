@@ -4,11 +4,16 @@
     font-family: "Inter", "Arial", sans-serif;
     font-weight: 400;
     font-size: 24px;
-}
 
-.header__link:first-child {
     margin-right: 18px;
 }
+
+.header__link:last-child {
+    margin-right: 0;
+} 
+ 
+
+
 
 @media screen and (max-width: 767px) {
     .header__link {
