@@ -28,7 +28,4 @@
         line-height: 35px;
         padding: 0 16px;
     }
-    .place__title:first-child{
-        white-space:normal;
-    }
 }
