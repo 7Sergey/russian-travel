@@ -13,10 +13,17 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="Карта России">
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__link popup-oper">О проекте</li>
+                </ul>
+            </nav>
+            
             <div class="header__links">
                 <a class="header__link header__link_active link" href="#">Ru</a>
                 <a class="header__link link" href="#">En</a>
             </div>
+
         </header>
         <main class="main">
             <section class="lead">
@@ -192,6 +199,14 @@
             <p class="footer__copyright">© 2023. Фёдоров Сергей</p>
         </footer>
     </div>
+
+    <section class="popup">
+        <div class="popup__container">
+            <button type="button" class="popup__button-close" aria-label="Закрыть попап"></button>
+            <h2 class="popup__title">О проекте</h2>
+            <p class="popup__subtitle">Проект о путешествии по России</p>
+        </div>
+    </section>
 </body>
 
 </html>
