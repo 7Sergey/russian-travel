@@ -6,7 +6,8 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 199px 98px 0 83px;
-  display: flex;
+  display: none;
   align-items: flex-start;
   justify-content: center;
+  /* создал и переключился на ветку popup */
 }
